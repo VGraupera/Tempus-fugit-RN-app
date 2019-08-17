@@ -1,8 +1,8 @@
-import * as React from "react";
+import * as React from 'react';
 import Metric from './Metric';
 
 export default class YearLeft extends React.Component {
-  state = { value: 0 };
+  state = {value: 0};
   componentDidMount() {
     var timestmp = new Date().setFullYear(new Date().getFullYear(), 0, 1);
     var yearFirstDay = Math.floor(timestmp / 86400000);

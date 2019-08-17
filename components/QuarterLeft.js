@@ -1,9 +1,9 @@
-import * as React from "react";
+import * as React from 'react';
 
-import Metric from "./Metric";
+import Metric from './Metric';
 
 export default class YearLeft extends React.Component {
-  state = { value: 0 };
+  state = {value: 0};
 
   daysLeftInQuarter(d) {
     d = d || new Date();
@@ -27,8 +27,8 @@ export default class YearLeft extends React.Component {
       value: Math.floor(
         ((this.daysInQuarter() - this.daysLeftInQuarter()) /
           this.daysInQuarter()) *
-          100
-      )
+          100,
+      ),
     });
   }
   render() {

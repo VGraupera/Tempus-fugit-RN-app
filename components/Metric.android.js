@@ -1,17 +1,17 @@
-import React, { Component } from "react";
-import { Text, View, StyleSheet } from "react-native";
+import React, {Component} from 'react';
+import {Text, View, StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   item: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
     padding: 30,
     margin: 2,
-    borderColor: "#2a4944",
+    borderColor: '#2a4944',
     borderWidth: 1,
-    backgroundColor: "#d2f7f1"
-  }
+    backgroundColor: '#d2f7f1',
+  },
 });
 
 export default class Metric extends React.Component {

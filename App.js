@@ -7,7 +7,7 @@
  */
 
 import React from 'react';
-import {StyleSheet, ScrollView} from 'react-native';
+import {StyleSheet, ScrollView, SafeAreaView} from 'react-native';
 import {Container, Header, Left, Body, Right, Title} from 'native-base';
 
 import DayLeft from './components/DayLeft';
@@ -20,11 +20,12 @@ const App = () => {
     <Container>
       <Header>
         <Left />
-        <Body>
+        <Body style={{flex: 3, flexDirection:'row', justifyContent:'center'}}>
           <Title>Tempus Fugit</Title>
         </Body>
         <Right />
       </Header>
+      <SafeAreaView style={{flex: 1, backgroundColor: '#fff'}}>
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={styles.scrollView}>
@@ -33,6 +34,7 @@ const App = () => {
         <QuarterLeft />
         <YearLeft />
       </ScrollView>
+      </SafeAreaView>
     </Container>
   );
 };

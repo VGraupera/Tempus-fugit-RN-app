@@ -6,35 +6,39 @@
  * @flow
  */
 
-import React, { Fragment } from "react";
-import { SafeAreaView, StyleSheet, ScrollView, StatusBar } from "react-native";
+import React from 'react';
+import {StyleSheet, ScrollView} from 'react-native';
+import {Container, Header, Left, Body, Right, Title} from 'native-base';
 
-import DayLeft from "./components/DayLeft";
-import MonthLeft from "./components/MonthLeft";
-import QuarterLeft from "./components/QuarterLeft";
-import YearLeft from "./components/YearLeft";
+import DayLeft from './components/DayLeft';
+import MonthLeft from './components/MonthLeft';
+import QuarterLeft from './components/QuarterLeft';
+import YearLeft from './components/YearLeft';
 
 const App = () => {
   return (
-    <Fragment>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <ScrollView
-          contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}
-        >
-          <DayLeft />
-          <MonthLeft />
-          <QuarterLeft />
-          <YearLeft />
-        </ScrollView>
-      </SafeAreaView>
-    </Fragment>
+    <Container>
+      <Header>
+        <Left />
+        <Body>
+          <Title>Tempus Fugit</Title>
+        </Body>
+        <Right />
+      </Header>
+      <ScrollView
+        contentInsetAdjustmentBehavior="automatic"
+        style={styles.scrollView}>
+        <DayLeft />
+        <MonthLeft />
+        <QuarterLeft />
+        <YearLeft />
+      </ScrollView>
+    </Container>
   );
 };
 
 const styles = StyleSheet.create({
-  scrollView: {}
+  scrollView: {},
 });
 
 export default App;

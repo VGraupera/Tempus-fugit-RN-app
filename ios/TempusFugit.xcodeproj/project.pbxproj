@@ -18,6 +18,7 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* TempusFugitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TempusFugitTests.m */; };
 		34E1FB72DB605B0763D1F593 /* libPods-TempusFugit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2E93068330FAE03993B673 /* libPods-TempusFugit.a */; };
+		8D929C7B2311073F00D09A9D /* TempusIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D929C7A2311073F00D09A9D /* TempusIcon.jpg */; };
 		AA69A82BD9B1EE7A5DCD99A6 /* libPods-TempusFugit-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3BCB36AC9DFC5D954E8ED6 /* libPods-TempusFugit-tvOS.a */; };
 		E7D3F00BA7859C600F99AB60 /* libPods-TempusFugitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5704CF850DF5C8259F752C00 /* libPods-TempusFugitTests.a */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		5704CF850DF5C8259F752C00 /* libPods-TempusFugitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TempusFugitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		855DAF6256589B183F762ED3 /* Pods-TempusFugit-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempusFugit-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TempusFugit-tvOS/Pods-TempusFugit-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		870BC291E781F7B81FF57CE6 /* Pods-TempusFugit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempusFugit.release.xcconfig"; path = "Pods/Target Support Files/Pods-TempusFugit/Pods-TempusFugit.release.xcconfig"; sourceTree = "<group>"; };
+		8D929C7A2311073F00D09A9D /* TempusIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TempusIcon.jpg; sourceTree = "<group>"; };
 		9EACE8B50B07F6D7D93828BF /* Pods-TempusFugitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempusFugitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TempusFugitTests/Pods-TempusFugitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A007E3B06DE1B06FCF502E53 /* Pods-TempusFugit-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempusFugit-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TempusFugit-tvOSTests/Pods-TempusFugit-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC57031DC45564FD8E951002 /* Pods-TempusFugitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempusFugitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TempusFugitTests/Pods-TempusFugitTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				8D929C7A2311073F00D09A9D /* TempusIcon.jpg */,
 			);
 			name = TempusFugit;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				8D929C7B2311073F00D09A9D /* TempusIcon.jpg in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

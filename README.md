@@ -1,4 +1,4 @@
-# Tempus Fugit Native App
+# Tempus Fugit React Native App
 
 Tempus fugit is a Latin phrase, usually translated into English as "time flies".
 
